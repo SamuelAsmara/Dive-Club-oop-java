@@ -1,23 +1,22 @@
-# 🤿 Java OOP Fundamentals: Dive Club Management
+# 🤿 Java OOP: Dive Club Inventory
 
-A hands-on implementation of a diving equipment management system, focused on applying core Java programming concepts and structural design.
+A Java-based system for managing diving equipment, focused on core OOP principles and clean code structure.
 
 ## 🚀 Project Goal
-This is a focused exercise in Object-Oriented Programming (OOP). Rather than building a large-scale system, the goal was to take a real-world scenario—a dive club's inventory—and model it using clean, readable, and well-structured Java code.
+This is a focused exercise in Object-Oriented Programming (OOP). Instead of building a large system, the goal was to take a real-world scenario - a dive club's inventory - and model it using readable and well-organized Java code.
 
-## 🛠️ Core Concepts Demonstrated
-Instead of focusing on scale, this project emphasizes the **correct application** of core OOP principles:
+## 🛠️ Core Concepts
+Rather than focusing on scale, I focused on applying the fundamentals correctly:
 
-* **Abstraction**: Ensuring clear contracts through abstract base classes.
-* **Inheritance**: Building a logical hierarchy that makes sense for the diving domain.
-* **Polymorphism**: Handling different gear types (Cylinders, Regulators, Computers) in a single collection while maintaining type-specific behavior.
-* **Design Patterns & Error Handling**: Utilizing the **Factory Pattern** for object creation and **Custom Exceptions** to enforce domain-specific safety logic.
-* **Encapsulation**: Strict adherence to data hiding and defensive programming practices.
+* **Abstraction**: Using abstract classes to define clear gear contracts.
+* **Inheritance**: Creating a logical hierarchy for different types of equipment.
+* **Polymorphism**: Managing diverse gear types in a single collection while keeping specific behaviors.
+* **Patterns & Safety**: Using a Factory pattern for object creation and custom exceptions for safety logic.
+* **Encapsulation**: Proper use of private fields and defensive copying to protect data integrity.
 
-## 📐 Architecture
-The project is built around a logical hierarchy of diving gear:
+## 📐 Structure
+The project follows a simple hierarchy:
 
-* **DiveGear (Abstract)**: Defines the common state and the shared safety contract.
-* **Specialized Subclasses**: Each implements its own unique business logic for maintenance (e.g., dive counts, battery levels, or test dates).
-* **Inventory Manager**: Handles the lifecycle, rentals, and reporting using the Java Collections API.
-
+* **DiveGear**: The base abstract class for all equipment.
+* **Specialized Classes**: Specific logic for Cylinders, Regulators, and Computers (maintenance, battery checks, etc).
+* **Inventory Manager**: Handles the storage and reporting using Java Collections.
