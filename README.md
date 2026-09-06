@@ -1,11 +1,11 @@
-# 🤿 Java OOP: Dive Club Inventory
+# Java OOP: Dive Club Inventory
 
 A Java-based system for managing diving equipment, focused on core OOP principles and clean code structure.
 
-## 🚀 Project Goal
+## Project Goal
 This is a focused exercise in Object-Oriented Programming (OOP). Instead of building a large system, the goal was to take a real-world scenario - a dive club's inventory - and model it using readable and well-organized Java code.
 
-## 🛠️ Core Concepts
+## Core Concepts
 Rather than focusing on scale, I focused on applying the fundamentals correctly:
 
 * **Abstraction**: Using abstract classes to define clear gear contracts.
@@ -14,7 +14,7 @@ Rather than focusing on scale, I focused on applying the fundamentals correctly:
 * **Patterns & Safety**: Using a Factory pattern for object creation and custom exceptions for safety logic.
 * **Encapsulation**: Proper use of private fields and defensive copying to protect data integrity.
 
-## 📐 Structure
+## tructure
 The project follows a simple hierarchy:
 
 * **DiveGear**: The base abstract class for all equipment.
